@@ -14,7 +14,8 @@ options(rlang_backtrace_on_error = "full")
 f <- function() g() 
 g <- function() h() 
 h <- function() i() 
-i <- function() stop("Error") 
+#i <- function() stop("Error")
+i <- function() 1 
 ``` 
 ```{r} 
 f() 
