@@ -9,6 +9,9 @@ editor: source
 # What do you learn when it fails?
 
 ```{r} 
+options(rlang_backtrace_on_error = 
+"full"
+
 f <- function() g() 
 g <- function() h() 
 h <- function() i() 
