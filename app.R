@@ -1,6 +1,7 @@
 library(shiny)
 library(shinyvalidate)
 library(duckdb)
+library(arrow)
 
 ui <- fluidPage(
   titlePanel("Mad Libs Game"),
