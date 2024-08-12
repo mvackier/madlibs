@@ -3,11 +3,15 @@
   "locale": "en_US",
   "platform": "4.4.1",
   "metadata": {
-    "appmode": "quarto",
-    "primary_rmd": null,
+    "appmode": "quarto-static",
+    "primary_rmd": "error_doc.qmd",
     "primary_html": null,
     "content_category": null,
     "has_parameters": false
+  },
+  "quarto": {
+    "version": "1.5.56",
+    "engines": ["knitr"]
   },
   "packages": {
     "R6": {
